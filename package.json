@@ -1,0 +1,24 @@
+{
+  "name": "m101x",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mongodb1.js",
+  "dependencies": {
+    "express": "^4.15.4",
+    "mocha": "^3.5.0",
+    "mongodb": "^2.2.31",
+    "mongoose": "^4.11.7",
+    "wagner-core": "^0.2.0"
+  },
+  "devDependencies": {
+    "gulp": "3.9.1",
+    "gulp-mocha": "4.3.1",
+    "mocha": "3.5.0"
+  },
+  "scripts": {
+    "test": "mocha mongodb5.js",
+    "watch": "gulp watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
